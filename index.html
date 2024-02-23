@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart School</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-GLhlTQ8iZU7XIOZowEN8+cu6Zl+Cv9D44U/qp/RaFzF/VRSJxDeJpXk1L6aMSM1b" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Navigatin Area -->
+        <div class="header">
+            <div class="brand">
+                <div class="btns">
+                    <h1>SMAET SCHOOL</h1>
+                    <div class="btn">
+                        <button> Under Implementation Track Progress </button>
+                        <select name="GetHelp" id="help">
+                            <option value="contact">Contact us</option>
+                            <option value="Email">Email</option>
+                            <option value="website">website</option>
+                            <option value="Report">Report</option>
+                        </select>
+                        <span>AY: 2023-2024</span>
+                        <div class="icon">
+                            <a href=""><i class="fa-solid fa-house"></i></a>
+                            <a href=""><i class="fa-solid fa-notificatin"></i></a>
+                            <a href=""><i class="fa-solid fa-search"></i></a>
+                            <a href=""><i class="fa-solid fa-menu"></i></a>
+                            <a href=""><i class="fa-solid fa-contacts"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Staff details</a></li>
+                    <li><a href="">Staff Attendence</a></li>
+                    <li><a href="">Biometric Attendence</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Staff leaves</a></li>
+                    <li><a href="">Staff</a></li>
+                    <li><a href="">Report</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="box">
+            <div class="address">
+                <a href="#">HR</a>/
+                <a href="" style="color: #000000;">Staff Details</a>/
+                <a href="" style="color: #000000;">Create Staff Details</a>
+            </div>
+        </div>
+        <br>
+        <div class="content">
+            <div class="head1">
+                <button class="btn btn-primary">Back</button>
+                <span>Enrole New Staff</span>
+            </div>
+            <div class="contenttitle">BRANCH : SHAHEEN JUNIOR COLLEGE</div>
+            <div class="fromarea">
+                <div class="head">Staff Details</div>
+                <form action="get">
+                    <div class="inp">
+                        <label for="options">Employee Status:</label>
+                        <select id="options" name="options">
+                            <option value="Temporary">Temporary</option>
+                            <option value="Permanent">Permanent</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Staff Type:</label>
+                        <div class="radio">
+                            <input type="radio" name="Option" id="Teaching">Teaching
+                            <input type="radio" name="Option" id="NonTeaching">Non-Teaching
+                            <input type="radio" name="Option" id="Transport">Transport
+                        </div>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Select Department:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Select Department</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Employee Category:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Select Category</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Designation:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Select Designation</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Qualification Type:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Select Qualification</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Education Qualification:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Select Qualification</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Access Level:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Access Level</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Trained As:*</label>
+                        <select id="options" name="options">
+                            <option value="" disabled selected>Select Level</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="inp">
+                        <label for="options">CTET Qualified:</label>
+                        <input type="radio" name="Option" id="Yes">Yes
+                        <input type="radio" name="Option" id="No">No
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="fromarea">
+                <div class="head">Personal Details</div>
+                <form action="get">
+                    <div class="inp">
+                        <label for="options">First Name :*</label>
+                        <input type="text" name="First Name" id="fn">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Middle Name :*</label>
+                        <input type="text" name="Middle Name" id="mn">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Last Name:*</label>
+                        <input type="text" name="Last Name" id="ln">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Mobile No :*</label>
+                        <input type="text" name="Mobile No" id="mob">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Emergency Contact No :*</label>
+                        <input type="text" name="Emergency" id="Emergency">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Gender :*</label>
+                        <input type="radio" name="Option" id="Male">Male
+                        <input type="radio" name="Option" id="Female">Female
+                        <input type="radio" name="Option" id="Other">Other
+                    </div>
+                    <div class="inp">
+                        <label for="options">Enter Date of Birth :*</label>
+                        <input type="date" name="date" id="dob">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Email Id :*</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Permanent Address :*</label>
+                        <textarea name="PAddress" id="PAddress" cols="30" rows="2"></textarea>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Corresponding Address :*</label>
+                        <textarea name="CAddress" id="CAddress" cols="30" rows="2"></textarea>
+                    </div>
+                    <div class="inp">
+                        <label for="options">Religion :*</label>
+                        <select id="options" name="options">
+                            <option value="option1" selected>Hindu</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="fromarea">
+                <div class="head">Other Details</div>
+                <form action="get">
+                    <div class="inp">
+                        <label for="options">Adhar No :*</label>
+                        <input type="text" name="Adhar No" id="an">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Pan No :*</label>
+                        <input type="text" name="Pan No" id="pn">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Date of Joining :*</label>
+                        <input type="date" name="DJ" id="dj">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Staff Reference Code :*</label>
+                        <input type="text" name="RC" id="rc">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Select Pay Type :*</label>
+                        <input type="radio" name="Option" id="Consolidate">Consolidate
+                        <input type="radio" name="Option" id="Pay">Pay
+                        <input type="radio" name="Option" id="Other">Other
+                    </div>
+                    <div class="inp">
+                        <label for="options">Government Id/ Resident No :*</label>
+                        <input type="text" name="Id" id="id">
+                    </div>
+                    <div class="inp">
+                        <label for="options">Citizenship :*</label>
+                        <select id="options" name="options">
+                            <option value="option1" selected>Indian</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+
+                </form>
+                <button type="submit" class="btn btn-primary">Save & Continue</button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
